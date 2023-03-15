@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+  * The file is used for OverScroller,
+  * don't edit the file,
+  * only if you know very clearly what you're doing.
+  */
+-->
+<ScrollOptParameters>
+    <param name = "enable" value = "true"/>
+    <param name = "interpolatorStr" value="0.25,0.75,0.4,1" />
+    <param name = "veloAccuCoef" value="1.5" />
+    <param name = "maxAccuCoef" value = "4.5" />
+    <param name = "accuCountThresh" value = "3"/>
+    <param name = "flingAbortIntervalMax" value = "150"/>
+    <param name = "maxContinuousInterval" value = "500" />
+
+    <DistanceOpt id="distance">
+        <param name = "maxCoef" value = "1.3" />
+        <param name = "veloMax" value = "12000" />
+        <param name = "veloMin" value = "5000" />
+        <param name = "minCoef" value = "0.75" />
+    </DistanceOpt>
+    <DurationOpt id="duration">
+        <param name = "maxCoef" value = "2" />
+        <param name = "veloMax" value = "12000" />
+        <param name = "veloMin" value = "5000" />
+        <param name = "minCoef" value = "1.3" />
+    </DurationOpt>
+
+</ScrollOptParameters>
